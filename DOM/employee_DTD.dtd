@@ -1,0 +1,22 @@
+<!ELEMENT Company (Employee)*>
+<!ELEMENT Employee (Employee_Id|First_Name|Last_Name|Phone_Number|Emergency_Number|Email_Id|Address|Birth_Date|Martial_Status|Total_Work_Experience|Designation|Reporting_To|Vertical)*>
+<!ELEMENT Employee_Id (#PCDATA)>
+<!ELEMENT First_Name (#PCDATA)>
+<!ELEMENT Last_Name (#PCDATA)>
+<!ELEMENT Phone_Number (#PCDATA)>
+<!ELEMENT Emergency_Number (#PCDATA)>
+<!ELEMENT Email_Id (#PCDATA)>
+<!ELEMENT Address (Address_Line1|Address_Line2|City|State|Country|Zip_Code)*>
+<!ELEMENT Address_Line1 (#PCDATA)>
+<!ELEMENT Address_Line2 (#PCDATA)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT State (#PCDATA)>
+<!ELEMENT Country (#PCDATA)>
+<!ELEMENT Zip_Code (#PCDATA)>
+<!ELEMENT Birth_Date (#PCDATA)>
+<!ELEMENT Martial_Status (#PCDATA)>
+<!ELEMENT Total_Work_Experience (#PCDATA)>
+<!ELEMENT Designation (#PCDATA)>
+        <!ELEMENT Reporting_To (#PCDATA)>
+        <!ELEMENT Vertical (#PCDATA)>
+ 

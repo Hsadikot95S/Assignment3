@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone = "no"?>
+<!DOCTYPE Company SYSTEM "employee_DTD.dtd">
+
+<Company>
+    <Employee>
+        <Employee_Id>0001</Employee_Id>
+        <First_Name>Tanmay</First_Name>
+        <Last_Name>Patil</Last_Name>
+        <Phone_Number>1234567890</Phone_Number>
+        <Emergency_Number>0987654321</Emergency_Number>
+        <Email_Id>tanmaypatil@xyz.com</Email_Id>
+        <Address>
+            <Address_Line1>123-A Sahara Flats</Address_Line1>
+            <Address_Line2>Opp. ABC School</Address_Line2>
+            <City>Bangalore</City>
+            <State>Karnataka</State>
+            <Country>India</Country>
+            <Zip_Code>560212</Zip_Code>
+        </Address>
+        <Birth_Date>14-02-1998</Birth_Date>
+        <Martial_Status>Married</Martial_Status>
+        <Total_Work_Experience>2.5 years</Total_Work_Experience>
+        <Designation>Software Engineer</Designation>
+        <Reporting_To>Vishal Gandhi</Reporting_To>
+        <Vertical>QLT</Vertical>
+    </Employee>
+    <Employee>
+        <Employee_Id>0002</Employee_Id>
+        <First_Name>Naman</First_Name>
+        <Last_Name>Patel</Last_Name>
+        <Phone_Number>1234567890</Phone_Number>
+        <Emergency_Number>0987654321</Emergency_Number>
+        <Email_Id>namanpatel@xyz.com</Email_Id>
+        <Address>
+            <Address_Line1>123-A Sahara Flats</Address_Line1>
+            <Address_Line2>Opp. ABC School</Address_Line2>
+            <City>Mumbai</City>
+            <State>Maharashtra</State>
+            <Country>India</Country>
+            <Zip_Code>400001</Zip_Code>
+        </Address>
+        <Birth_Date>01-10-1987</Birth_Date>
+        <Martial_Status>Married</Martial_Status>
+        <Total_Work_Experience>2.5 years</Total_Work_Experience>
+        <Designation>Senior Software Engineer</Designation>
+        <Reporting_To>Ankita Shah</Reporting_To>
+        <Vertical>MST</Vertical>
+    </Employee>
+    <Employee>
+        <Employee_Id>0002</Employee_Id>
+        <First_Name>Naman</First_Name>
+        <Last_Name>Patel</Last_Name>
+        <Phone_Number>1234567890</Phone_Number>
+        <Emergency_Number>0987654321</Emergency_Number>
+        <Email_Id>namanpatel@xyz.com</Email_Id>
+        <Address>
+            <Address_Line1>123-A Sahara Flats</Address_Line1>
+            <Address_Line2>Opp. ABC School</Address_Line2>
+            <City>Mumbai</City>
+            <State>Maharashtra</State>
+            <Country>India</Country>
+            <Zip_Code>400001</Zip_Code>
+        </Address>
+        <Birth_Date>01-10-1987</Birth_Date>
+        <Martial_Status>Married</Martial_Status>
+        <Total_Work_Experience>2.5 years</Total_Work_Experience>
+        <Designation>Senior Software Engineer</Designation>
+        <Reporting_To>Ankita Shah</Reporting_To>
+        <Vertical>MST</Vertical>
+    </Employee>
+</Company>

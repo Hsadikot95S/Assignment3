@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Company">
+    <xs:annotation>
+      <xs:documentation>Employee XML Document</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Employee" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:byte" name="Employee_Id"/>
+              <xs:element type="xs:string" name="First_Name"/>
+              <xs:element type="xs:string" name="Last_Name"/>
+              <xs:element type="xs:int" name="Phone_Number"/>
+              <xs:element type="xs:int" name="Emergency_Number"/>
+              <xs:element type="xs:string" name="Email_Id"/>
+              <xs:element name="Address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Address_Line1"/>
+                    <xs:element type="xs:string" name="Address_Line2"/>
+                    <xs:element type="xs:string" name="City"/>
+                    <xs:element type="xs:string" name="State"/>
+                    <xs:element type="xs:string" name="Country"/>
+                    <xs:element type="xs:int" name="Zip_Code"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="Birth_Date"/>
+              <xs:element type="xs:string" name="Martial_Status"/>
+              <xs:element type="xs:string" name="Total_Work_Experience"/>
+              <xs:element type="xs:string" name="Designation"/>
+              <xs:element type="xs:string" name="Reporting_To"/>
+              <xs:element type="xs:string" name="Vertical"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
